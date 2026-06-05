@@ -127,11 +127,11 @@ Todas as configurações ficam em `src/main/resources/application.yml`:
 ```yaml
 lincros:
   base-url: https://routing.lincros.com
-  api-key: <TOKEN_BASE64>         # Usado como fallback se o client não enviar Authorization
+  api-key: ""         # Usado como fallback se o client não enviar Authorization TOKEN_BASE64
 
 lincros-tracking:
   base-url: https://dalcol-tracking.lincros.com
-  api-key: ""                     # API Key injetada no header da requisição ao Tracking
+  api-key: ""                     # API Key injetada no header da requisição ao Tracking TOKEN_BASE64
   api-key-header-name: apiKey
 
 cors:
