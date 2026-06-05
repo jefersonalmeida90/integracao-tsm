@@ -35,7 +35,7 @@ O projeto foi desenvolvido aplicando todos os conceitos, padrões e comportament
 
 ## Arquitetura
 
-O projeto segue uma arquitetura em camadas inspirada em **Clean Architecture / Ports & Adapters**, replicando a estrutura de projetos do modelo C# (Domain → Application → Infrastructure → API).
+O projeto segue uma arquitetura em camadas inspirada em **Clean Architecture / Ports & Adapters**.
 
 ```
 integracao-lincros-tms/
