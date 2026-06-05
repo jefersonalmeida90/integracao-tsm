@@ -6,7 +6,7 @@ API intermediária em **Java / Spring Boot** para integração com as plataforma
 
 ## Visão Geral
 
-Este projeto atua como um middleware entre o ERP/sistemas internos da Dalcol e as duas APIs externas da Lincros:
+Este projeto atua como um middleware entre o ERP/sistemas internos de alguma empresa que queira utilizar o serviço e as duas APIs externas da Lincros:
 
 | Plataforma | URL Base | Finalidade |
 |---|---|---|
