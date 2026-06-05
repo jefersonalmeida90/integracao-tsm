@@ -11,7 +11,7 @@ Este projeto atua como um middleware entre o ERP/sistemas internos de alguma emp
 | Plataforma | URL Base | Finalidade |
 |---|---|---|
 | **Lincros Routing** | `https://routing.lincros.com` | Importação e cancelamento de pedidos; consulta de sessões de roteirização |
-| **Lincros Tracking** | `https://dalcol-tracking.lincros.com` | Importação de rotas para acompanhamento logístico |
+| **Lincros Tracking** | `https://empresa-tracking.lincros.com` | Importação de rotas para acompanhamento logístico |
 
 O projeto foi desenvolvido aplicando todos os conceitos, padrões e comportamentos para o ecossistema Java / Spring Boot.
 
@@ -130,14 +130,14 @@ lincros:
   api-key: ""         # Usado como fallback se o client não enviar Authorization TOKEN_BASE64
 
 lincros-tracking:
-  base-url: https://dalcol-tracking.lincros.com
+  base-url: https://empresa-tracking.lincros.com
   api-key: ""                     # API Key injetada no header da requisição ao Tracking TOKEN_BASE64
   api-key-header-name: apiKey
 
 cors:
   allow-all-origins: false
   allowed-origins:
-    - "https://meu-erp.dalcol.com.br"
+    - "https://meu-erp.empresa.com.br"
 ```
 
 ---
