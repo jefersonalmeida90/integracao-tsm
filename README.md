@@ -13,7 +13,7 @@ Este projeto atua como um middleware entre o ERP/sistemas internos da Dalcol e a
 | **Lincros Routing** | `https://routing.lincros.com` | Importação e cancelamento de pedidos; consulta de sessões de roteirização |
 | **Lincros Tracking** | `https://dalcol-tracking.lincros.com` | Importação de rotas para acompanhamento logístico |
 
-O projeto foi desenvolvido como **replicação fiel** de um modelo de referência em C# (.NET 10), adaptando todos os conceitos, padrões e comportamentos para o ecossistema Java / Spring Boot.
+O projeto foi desenvolvido aplicando todos os conceitos, padrões e comportamentos para o ecossistema Java / Spring Boot.
 
 ---
 
